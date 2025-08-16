@@ -1,0 +1,9 @@
+roles:
+  marketing_analyst_group:
+    tables:
+      - dev.gold.report_avg_discount_price_by_segment
+      - dev.gold.report_marketing_spend_efficiency
+      - dev.gold.report_monthly_revenue_trend
+      - dev.gold.report_total_revenue_units_by_category
+    privileges:
+      - SELECT
