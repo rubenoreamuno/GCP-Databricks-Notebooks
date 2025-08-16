@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Simple script to upload notebooks to a Databricks workspace path
-# Adjust the path below to your actual notebooks directory and target path
-
 NOTEBOOKS_DIR=notebooks
 TARGET_PATH=/Repos/your-username/GCP-Databricks-Notebooks
 
