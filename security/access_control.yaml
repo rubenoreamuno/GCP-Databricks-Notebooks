@@ -1,0 +1,10 @@
+roles:
+  finance_analyst_group:
+    catalogs:
+      - finance
+    schemas:
+      - finance.reporting
+    tables:
+      - finance.reporting.transactions
+    privileges:
+      - SELECT

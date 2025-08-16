@@ -1,0 +1,15 @@
+{
+  "group": "finance_engineers",
+  "resources": [
+    {
+      "type": "catalog",
+      "name": "finance",
+      "privileges": ["SELECT", "USAGE"]
+    },
+    {
+      "type": "table",
+      "name": "finance.reporting.transactions",
+      "privileges": ["SELECT"]
+    }
+  ]
+}
